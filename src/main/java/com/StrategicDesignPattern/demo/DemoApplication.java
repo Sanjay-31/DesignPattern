@@ -10,6 +10,12 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
+		//object should be immutable that is objects should not be modified after they have been created.
+//		Car car=new Car("Audi A6","Sedan",
+//				"Diesel","2000 CC",
+//				"Has A Sunroof",
+//				"Luxury","Blue");
+
 		//Car 1
 		CarBuilder carBuilder=new CarBuilder();
 		carBuilder.setName("WagonR");
@@ -24,14 +30,13 @@ public class DemoApplication {
 		System.out.println("---------");
 
 	   //Car 2
-	   CarBuilder carBuilder1=new CarBuilder();
-	   carBuilder1.setName("Tesla");
-	   carBuilder1.setCarType("Sedan");
-	   carBuilder1.setFuelType("Electric vehicle");
-	   carBuilder1.setSunroof("Has a Sunroof");
-	   carBuilder1.setColor("Black");
+	   Car car2=new CarBuilder()
+			   .setName("Tesla")
+			   .setCarType("Sedan")
+			   .setFuelType("Electric vehicle")
+			   .setSunroof("Has a Sunroof")
+			   .setColor("Black").getCarObject();
 
-	   Car car2=carBuilder1.getCarObject();
 		System.out.println(car2.toString());
 	}
 }

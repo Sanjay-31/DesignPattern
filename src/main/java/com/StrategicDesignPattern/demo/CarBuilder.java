@@ -17,32 +17,39 @@ public class CarBuilder {
     //optional
     private String color;
 
-    public void setName(String name) {
+    public CarBuilder setName(String name) {
         this.name = name;
+        return this;
     }
 
-    public void setCarType(String carType) {
+    public CarBuilder setCarType(String carType) {
         this.carType = carType;
+        return this;
     }
 
-    public void setFuelType(String fuelType) {
+    public CarBuilder setFuelType(String fuelType) {
         FuelType = fuelType;
+        return this;
     }
 
-    public void setEngineCC(String engineCC) {
+    public CarBuilder setEngineCC(String engineCC) {
         this.engineCC = engineCC;
+        return this;
     }
 
-    public void setSunroof(String sunroof) {
+    public CarBuilder setSunroof(String sunroof) {
         this.sunroof = sunroof;
+        return this;
     }
 
-    public void setInteriorType(String interiorType) {
+    public CarBuilder setInteriorType(String interiorType) {
         this.interiorType = interiorType;
+        return this;
     }
 
-    public void setColor(String color) {
+    public CarBuilder setColor(String color) {
         this.color = color;
+        return this;
     }
 
     public Car getCarObject()
