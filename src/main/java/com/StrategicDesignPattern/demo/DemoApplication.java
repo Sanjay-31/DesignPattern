@@ -1,12 +1,16 @@
 package com.StrategicDesignPattern.demo;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
+
+
 @SpringBootApplication
 public class DemoApplication {
-
+     static Logger logger= LogManager.getLogger(DemoApplication.class);
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
@@ -25,9 +29,8 @@ public class DemoApplication {
 		carBuilder.setColor("White");
 
 		Car car1= carBuilder.getCarObject();
-        System.out.println(car1.toString());
+		logger.info(car1.toString());
 
-		System.out.println("---------");
 
 	   //Car 2
 	   Car car2=new CarBuilder()
@@ -37,6 +40,6 @@ public class DemoApplication {
 			   .setSunroof("Has a Sunroof")
 			   .setColor("Black").getCarObject();
 
-		System.out.println(car2.toString());
+		logger.info(car2.toString());
 	}
 }
