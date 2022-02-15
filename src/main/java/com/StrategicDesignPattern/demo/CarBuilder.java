@@ -1,7 +1,6 @@
 package com.StrategicDesignPattern.demo;
 
 public class CarBuilder {
-
     //imp
     private String name;
     //imp

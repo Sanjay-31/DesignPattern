@@ -39,4 +39,31 @@ public class Car {
                 '}';
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public String getCarType() {
+        return carType;
+    }
+
+    public String getFuelType() {
+        return FuelType;
+    }
+
+    public String getEngineCC() {
+        return engineCC;
+    }
+
+    public String getSunroof() {
+        return sunroof;
+    }
+
+    public String getInteriorType() {
+        return interiorType;
+    }
+
+    public String getColor() {
+        return color;
+    }
 }
