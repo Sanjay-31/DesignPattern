@@ -11,6 +11,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DemoApplication {
      static Logger logger= LogManager.getLogger(DemoApplication.class);
+
+
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
@@ -29,7 +31,7 @@ public class DemoApplication {
 		carBuilder.setColor("White");
 
 		Car car1= carBuilder.getCarObject();
-		logger.info(car1.toString());
+		logger.debug(car1.toString());
 
 
 	   //Car 2
@@ -40,6 +42,8 @@ public class DemoApplication {
 			   .setSunroof("Has a Sunroof")
 			   .setColor("Black").getCarObject();
 
-		logger.info(car2.toString());
+		logger.debug(car2.toString());
+		System.gc();
+		carBuilder=null;
 	}
 }

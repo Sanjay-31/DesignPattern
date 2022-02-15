@@ -1,6 +1,10 @@
 package com.StrategicDesignPattern.demo;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class Car {
+
     //imp
     private String name;
     //imp
@@ -25,7 +29,10 @@ public class Car {
         this.interiorType = interiorType;
         this.color = color;
     }
+  public Car()
+  {
 
+  }
     @Override
     public String toString() {
         return "Car{" +
@@ -66,4 +73,6 @@ public class Car {
     public String getColor() {
         return color;
     }
+
+
 }

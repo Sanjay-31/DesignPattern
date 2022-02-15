@@ -1,5 +1,8 @@
 package com.StrategicDesignPattern.demo;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 public class CarBuilder {
     //imp
     private String name;
@@ -15,6 +18,8 @@ public class CarBuilder {
     private String interiorType;
     //optional
     private String color;
+
+     Logger logger= LogManager.getLogger(DemoApplication.class);
 
     public CarBuilder setName(String name) {
         this.name = name;
@@ -55,5 +60,11 @@ public class CarBuilder {
     {
         Car car=new Car(name,carType,FuelType,engineCC,sunroof,interiorType,color);
         return car;
+    }
+
+
+    protected void finalize()
+    {
+        logger.debug("Garbage collector is running");
     }
 }
