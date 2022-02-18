@@ -1,2 +1,6 @@
-package com.StrategicDesignPattern.demo.Car;public class Car {
+package com.StrategicDesignPattern.demo.Car;
+
+public class Car {
+    CarType carType=new Tesla();
+
 }

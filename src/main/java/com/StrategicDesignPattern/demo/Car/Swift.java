@@ -1,6 +1,6 @@
 package com.StrategicDesignPattern.demo.Car;
 
-public class MiniCar implements CarType{
+public class Swift implements CarType{
     @Override
     public String getCar() {
         return "Swift";

@@ -1,8 +1,8 @@
 package com.StrategicDesignPattern.demo.Car;
 
-public class ElectricVehicle implements CarType{
+public class Tesla implements CarType{
     @Override
     public String getCar() {
-        return "Tesla";
+        return "Tesla Car";
     }
 }
