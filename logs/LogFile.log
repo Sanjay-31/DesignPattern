@@ -1,0 +1,37 @@
+2022-02-25 16:55:37,834 INFO c.S.d.DemoApplication [restartedMain] Starting DemoApplication using Java 17.0.2 on PPBNOMBPBT-238.local with PID 53498 (/Users/sanjay.shakya/Downloads/StrategyDesignPattern/target/classes started by sanjay.shakya in /Users/sanjay.shakya/Downloads/StrategyDesignPattern)
+2022-02-25 16:55:37,838 DEBUG c.S.d.DemoApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-25 16:55:37,839 INFO c.S.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-25 16:55:38,262 INFO c.S.d.DemoApplication [restartedMain] Started DemoApplication in 0.908 seconds (JVM running for 10952.368)
+2022-02-25 16:55:38,267 DEBUG c.S.d.DemoApplication [restartedMain] Swift
+2022-02-25 16:55:38,268 INFO c.S.d.DemoApplication [restartedMain] With factory Pattern
+2022-02-25 16:55:38,268 INFO c.S.d.DemoApplication [restartedMain] Swift
+2022-02-25 16:55:38,268 DEBUG c.S.d.DemoApplication [restartedMain] Hyundai Verna
+2022-02-25 16:55:38,268 DEBUG c.S.d.DemoApplication [restartedMain] Tesla Car
+2022-02-25 16:55:38,268 DEBUG c.S.d.DemoApplication [restartedMain] WagonR
+2022-02-25 16:55:38,269 INFO c.S.d.DemoApplication [restartedMain] Info message
+2022-02-25 16:55:38,269 WARN c.S.d.DemoApplication [restartedMain] Warn message
+2022-02-25 16:55:38,269 ERROR c.S.d.DemoApplication [restartedMain] Error message
+2022-02-25 16:55:41,089 INFO c.S.d.DemoApplication [restartedMain] Starting DemoApplication using Java 17.0.2 on PPBNOMBPBT-238.local with PID 53498 (/Users/sanjay.shakya/Downloads/StrategyDesignPattern/target/classes started by sanjay.shakya in /Users/sanjay.shakya/Downloads/StrategyDesignPattern)
+2022-02-25 16:55:41,092 DEBUG c.S.d.DemoApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-25 16:55:41,092 INFO c.S.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-25 16:55:41,554 INFO c.S.d.DemoApplication [restartedMain] Started DemoApplication in 0.687 seconds (JVM running for 10955.66)
+2022-02-25 16:55:41,557 INFO c.S.d.DemoApplication [restartedMain] With factory Pattern
+2022-02-25 16:55:41,559 DEBUG c.S.d.DemoApplication [restartedMain] Swift
+2022-02-25 16:55:41,559 DEBUG c.S.d.DemoApplication [restartedMain] Hyundai Verna
+2022-02-25 16:55:41,560 DEBUG c.S.d.DemoApplication [restartedMain] Tesla Car
+2022-02-25 16:55:41,560 DEBUG c.S.d.DemoApplication [restartedMain] WagonR
+2022-02-25 16:55:41,651 INFO c.S.d.DemoApplication [restartedMain] Starting DemoApplication using Java 17.0.2 on PPBNOMBPBT-238.local with PID 63914 (/Users/sanjay.shakya/Downloads/StrategyDesignPattern/target/classes started by sanjay.shakya in /Users/sanjay.shakya/Downloads/StrategyDesignPattern)
+2022-02-25 16:55:41,669 DEBUG c.S.d.DemoApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-25 16:55:41,669 INFO c.S.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-25 16:56:14,621 INFO c.S.d.DemoApplication [restartedMain] Starting DemoApplication using Java 17.0.2 on PPBNOMBPBT-238.local with PID 53498 (/Users/sanjay.shakya/Downloads/StrategyDesignPattern/target/classes started by sanjay.shakya in /Users/sanjay.shakya/Downloads/StrategyDesignPattern)
+2022-02-25 16:56:14,628 DEBUG c.S.d.DemoApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-25 16:56:14,628 INFO c.S.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-25 16:56:14,891 INFO c.S.d.DemoApplication [restartedMain] Starting DemoApplication using Java 17.0.2 on PPBNOMBPBT-238.local with PID 63956 (/Users/sanjay.shakya/Downloads/StrategyDesignPattern/target/classes started by sanjay.shakya in /Users/sanjay.shakya/Downloads/StrategyDesignPattern)
+2022-02-25 16:56:14,944 DEBUG c.S.d.DemoApplication [restartedMain] Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-25 16:56:14,945 INFO c.S.d.DemoApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-25 16:56:15,079 INFO c.S.d.DemoApplication [restartedMain] Started DemoApplication in 0.663 seconds (JVM running for 10989.185)
+2022-02-25 16:56:15,083 INFO c.S.d.DemoApplication [restartedMain] With factory Pattern
+2022-02-25 16:56:15,086 DEBUG c.S.d.DemoApplication [restartedMain] Swift
+2022-02-25 16:56:15,086 DEBUG c.S.d.DemoApplication [restartedMain] Hyundai Verna
+2022-02-25 16:56:15,087 DEBUG c.S.d.DemoApplication [restartedMain] Tesla Car
+2022-02-25 16:56:15,087 DEBUG c.S.d.DemoApplication [restartedMain] WagonR
